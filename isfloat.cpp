@@ -30,7 +30,7 @@
 */
 #include <iostream>
 using namespace std;
-static bool isfloat(const string string);
+extern "C" static bool isfloat(const string string);
 
 
 static bool isfloat(const string string){                                //Call function passing parameter string expecting boolean return
